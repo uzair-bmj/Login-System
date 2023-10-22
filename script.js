@@ -39,6 +39,6 @@ function login() {
 
     }
 
-    document.getElementById("email").value;
-    document.getElementById("Pass").value;
+    document.getElementById("email").value = "";
+    document.getElementById("Pass").value = "";
 }
