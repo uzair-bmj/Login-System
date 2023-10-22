@@ -4,22 +4,20 @@ function sinup() {
     let em = document.getElementById("Email").value;
     let pss = document.getElementById("pass").value;
 
-
     if (nam && em && pss) {
         users.push({
             name: nam,
             email: em,
             password: pss
         }
-
         )
-
         console.log(users)
         window.alert("User Registered Successfully")
         document.getElementById("name").value = "";
         document.getElementById("Email").value = "";
         document.getElementById("pass").value = "";
     }
+
     else {
         alert("Please provide complete info")
     }
@@ -40,4 +38,7 @@ function login() {
 
 
     }
+
+    document.getElementById("email").value;
+    document.getElementById("Pass").value;
 }
